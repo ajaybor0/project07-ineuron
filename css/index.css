@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+
+.container {
+	padding: 50px 80px;
+	height: 100vh;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-items {
+	display: flex;
+}
+
+.nav-item {
+	font-size: 20px;
+	font-weight: 100;
+	margin: 0 30px 0 30px;
+}
+
+.nav-item.active-item {
+	color: #fe5e35;
+	font-weight: 700;
+}
+
+.nav-actions {
+	display: flex;
+}
+
+.nav-action {
+	width: 25px;
+	margin-left: 30px;
+}
+
+.intro-section {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.action-btn {
+	background-color: #fe5e35;
+	border: none;
+	border-radius: 50px;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 15px 30px;
+}
+
+.left-section {
+	width: 50%;
+}
+
+.left-section h3 {
+	font-size: 42px;
+	font-weight: 100;
+}
+
+.left-section h1 {
+	font-family: 'Fredoka One';
+	font-size: 64px;
+}
+
+.left-section h3 img {
+	width: 50px;
+}
+
+.left-section .text {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.action-btns {
+	margin-top: 50px;
+}
+
+.action-btns .action-btn {
+	margin-right: 20px;
+}
+
+.sub-headlines {
+	margin: 40px 60px;
+}
+
+.sub-headline img {
+	background-color: #fe5e35;
+	border-radius: 50%;
+	padding: 5px;
+	width: 25px;
+}
+.sub-headline {
+	font-size: 24px;
+	padding: 10px;
+	font-weight: 100;
+}
+
+.right-section {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.discount {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+	z-index: 1;
+	width: 150px;
+	filter: drop-shadow(3px 8px 2px rgb(0 0 0 /0.5));
+}
+
+.discount-content {
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+	z-index: 2;
+	width: 150px;
+	height: 150px;
+}
+
+.headphone {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: -1;
+	width: 400px;
+}
+
+.dots {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	position: absolute;
+	bottom: 150px;
+}
+
+.dot {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+.yellow-dot {
+	background-color: #ebe134;
+}
+
+.tomato-dot {
+	background-color: #fe5e35;
+}
+
+.black-dot {
+	background-color: #000000;
+}
+
+.right-section button {
+	position: absolute;
+	bottom: 60px;
+}
